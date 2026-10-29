@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+header {
+    display: flex;
+background-color: green;
+}
+header div{
+    display: inline;   
+
+}
+header div a {
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+    display: inline;
+}
+.qwerty{
+flex-grow: 1;
+}
+
+.background{
+    background-color: green;
+}
+
+
+
+main h1{ 
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.qwerty3{
+    height: 100px;
+}
+
+/*-----*/
+
+footer {
+    display: flex;
+}
+
+footer div{
+    display: inline;   
+    padding: 30px;
+}
+
+footer div p{
+   font-size: 20px; 
+}
+footer div a {
+    font-size: 18px;
+
+    display: inline;
+}
+

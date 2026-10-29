@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+header {
+    display: flex;
+}
+header div{
+    display: inline;   
+}
+header div a {
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+    display: inline;
+}
+.qwerty{
+flex-grow: 1;
+}
+
+.background2{
+    background-color: green;
+}
+
+/*-----*/
+
+main h1{ 
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.qwerty3{
+    height: 200px;
+    color: #ffffff;
+}
+
+main p {
+    text-align: center;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+.qwerty3{
+    height: 100px;
+    color: #ffffff;
+}
+
+.discr {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.dashed {
+border: none; /* Removes the default border */
+  height: 2px; /* Sets the thickness of the line */
+  background-color: soild green; /* Sets the color of the line */
+      margin: 40px 40px;
+      border-top: 1px dashed #999;
+}
+
+.background {
+    padding: 10px;
+background-color: white;
+text-align: center;
+
+}
+
+
+.grid {
+    display: grid;
+    gap: 20px; 
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto auto ;
+    justify-items: center;
+    
+}
+
+
+.box {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+    padding: 10px; 
+}
+
+footer {
+    display: flex;
+}
+
+footer div{
+    display: inline;   
+    padding: 30px;
+}
+
+footer div p{
+   font-size: 20px; 
+}
+footer div a {
+    font-size: 18px;
+
+    display: inline;
+}
